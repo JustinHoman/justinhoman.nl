@@ -20,6 +20,29 @@
           </ul>
         </nav>
       </div>
+      <div class="clear"></div>
     </header>
+
+    <section>
+      <form class="login" action="checklogin.php" method="post">
+        <table>
+          <tr>
+            <td>
+              <input type="text" name="username" placeholder="Gebruikersnaam" required>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="password" name="password" placeholder="Wachtwoord" required>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="submit" name="" value="Login">
+            </td>
+          </tr>
+        </table>
+      </form>
+    </section>
   </body>
 </html>
